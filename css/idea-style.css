@@ -129,10 +129,10 @@
     }
     
     #carruIndPosit{
-        /*padding-right: 1330px;*/
         margin-bottom: -30px;
-        /*margin-right: 250px;*/
-        /*margin-left: 157px;*/
+       /* padding-right: 1330px;
+        margin-right: 250px;
+        margin-left: 157px;*/
     }
 
     #carruInn{
@@ -141,11 +141,11 @@
     }
     
     .controlDer{
-        margin-right: -1px;
+        margin-right: 1292px;
     }
 
     .controlIzq{
-        padding-right: 30px;
+        padding-right: 250px;
     }
     
     
@@ -387,9 +387,9 @@
     }
     
     #carruIndPosit{
-        /*padding-right: 1330px;*/
         margin-bottom: -30px;
-        /*margin-right: 250px;
+       /* padding-right: 1330px;
+        margin-right: 250px;
         margin-left: 157px;*/
     }
     
@@ -399,11 +399,11 @@
     }
     
     .controlDer{
-        margin-right: -1px;
+        margin-right: 1292px;
     }
     
     .controlIzq{
-        padding-right: 30px;
+        padding-right: 250px;
     }
     
     /* ---------------------FOOTER--------------------*/
@@ -490,9 +490,8 @@
     #bodySet{
     /*--grid-area: body;
         grid-column: 1/7;--*/
-        /*height: 100%;
-        width: 100%;*/
-        width: 500px;
+        height: 100%;
+        width: 100%;
     }
     
     #textPosit{
@@ -645,10 +644,10 @@ a{
 }
 
 #carruIndPosit{
-    /*padding-right: 1330px;*/
     margin-bottom: -30px;
-    /*margin-right: 250px;
-    margin-left: 157px;*/
+       /* padding-right: 1330px;
+        margin-right: 250px;
+        margin-left: 157px;*/
 }
 
 #carruInn{
@@ -657,11 +656,11 @@ a{
 }
 
 .controlDer{
-    margin-right: -1px;
+    margin-right: 1292px;
 }
 
 .controlIzq{
-    padding-right: 30px;
+    padding-right: 250px;
 }
 
 /* ---------------------FOOTER--------------------*/
@@ -747,9 +746,8 @@ a{
 #bodySet{
 /*--grid-area: body;
     grid-column: 1/7;--*/
-    /*height: 100%;
-    width: 100%;*/
-    width: 500px;
+    height: 100%;
+    width: 100%;
 }
 
 #textPosit{
