@@ -9,8 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="src/favicon (1).ico" rel="shortcut icon" type="image/x-icon" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="css/idea-style.css">
     <title>Charly Garcia - Inicio</title>
 </head>
@@ -18,10 +18,16 @@
 <div id="fullSet">
 <header id="nav-Background">
     <!--NAVBAR-->
-
+    
     <div class="logoGr">
-        <a href="idea-diaz-mazzaro.html"><img src="src/charly garcia image .png"></a>
-    <p id="charlyGarciaT">Charly García</p>
+      <a href="idea-diaz-mazzaro.html"><img src="src/charly garcia image .png"></a>
+  <!--<p id="charlyGarciaT">Charly García</p>-->
+    </div>
+    <div class="charlyTitPNG">
+      <img src="src/Charly tit.png" alt="" style="height: 100px; width: 300px; padding-left: 10px; margin-bottom: 44px;">
+    </div>
+    <div class="garciaTitPNG">
+      <img src="src/Garcia  tit.png" alt="" style="height: 100px; width: 300px; padding-right: 10px; margin-bottom: 44px;">
     </div>
     <!--NAV HANDMADE
         <nav>
@@ -45,9 +51,8 @@
         </ul>
     </nav>-->
     <!--NAV BOOTSTRAP-->
-    <nav class="navbar navbar-expand-lg navbar-light nav-UL" style="background-color: #D27C5A ;" id="navBoot">
+    <nav class="navbar navbar-expand-lg navbar-light nav-UL" style="    background-color: #D27C5A; padding-left: 730px; margin-top: -35px;" id="navBoot">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Say No More</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -61,11 +66,9 @@
                   Discografía
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item noDecoHrf" href="Discografia.html">1970s</a></li>
-                  <li><a class="dropdown-item noDecoHrf" href="1980s.html">1980s</a></li>
-                  <li><a class="dropdown-item noDecoHrf" href="1990s.html">1990s</a></li>
-                  <li><a class="dropdown-item noDecoHrf" href="2000s.html">2000s</a></li>
-                  <li><a class="dropdown-item noDecoHrf" href="2010s.html" >2010s</a></li>
+                  <li><a class="dropdown-item noDecoHrf" href="Discografia.html">1970s & 1980s</a></li>
+                  <li><a class="dropdown-item noDecoHrf" href="1990s.html">1990s & 2000s</a></li>
+                  <li><a class="dropdown-item noDecoHrf" href="2010s.html" >2010s & 2020s</a></li>
                 </ul>
               </li>
               <li class="nav-item">
@@ -80,23 +83,23 @@
             </ul>
           </div>
         </div>
-      </nav>-->
+      </nav>
     <!--NAVBAR CIERRE-->
 </header>
   <main>
-    <div id="titlePosit">
+    <div id="titlePosit" class="animate__animated animate__fadeInUp">
     <h1 class="quienPosit">¿Quien es<br>
     Charly García?</h1>
     </div>
     <article id="bodySet">
         <!--<div id="imgBody1" class="animate__animated animate__fadeInUp"><img src="src/charly garcia 1980.png"></div>-->
         <div id="carouselExampleIndicators" class="carousel slide animate__animated animate__fadeInUp" data-bs-ride="carousel">
-            <div class="carousel-indicators">
+            <div class="carousel-indicators" id="carruIndPosit">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-            <div class="carousel-inner">
+            <div class="carousel-inner" id="carruInn">
               <div class="carousel-item active">
                 <img src="src/charly garcia 1980.png"  alt="...">
               </div>
@@ -107,20 +110,26 @@
                 <img src="src/mgr_charly_garcia.png"  alt="...">
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <button class="carousel-control-prev controlIzq" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <button class="carousel-control-next controlDer" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
           </div>
     </article>
     <article id="parrafoInicio1">
-    <div id="" class="animate__animated animate__fadeInTopRight alignRight">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque blanditiis debitis pariatur libero delectus praesentium quae minima 
-            quasi, fugiat sint quis recusandae consequuntur totam in alias tenetur, reprehenderit autem! At!</p>
+    <div id="" class="animate__animated animate__fadeInTopRight alignRight " style="margin-right: 10px; padding-left: 500px; margin-top: -225px;">
+        <p><a href="https://es.wikipedia.org/wiki/Charly_Garc%C3%ADa" style="color: white;">Carlos Alberto García</a> nacido en Buenos Aires, el 23 de octubre de 1951, conocido por su nombre artístico Charly García, es un cantautor, compositor, músico y productor argentino de rock, considerado uno de los compositores más importantes de Latinoamérica y de la historia de la música popular en español.
+        <br>Sus obras le valieron el reconocimiento en muchas partes de latinoamérica. La revista Billboard lo ha definido como «ícono del rock argentino», Folha de São Paulolo apodó el «Mozart argentino», apodo con el que es conocido en América Latina, mientras que la BBC lo describió como "pionero del rock en español" y "leyenda viviente". Es considerado como uno de los máximos referentes del rock argentino. 
+        <br>García fundó dos grupos de gran importancia en el rock en español, como Sui Generis y Serú Girán, y lidero las bandas PorSuiGieco y La Máquina de Hacer Pájaros. 
+        </p>
+        <p>En 2009 recibió el Premio Grammy a la Excelencia Musical. En 1985 obtuvo el Premio Konex de Platino, como mejor Instrumentista de rock de la década. Ganó tres veces el Premio Gardel de Oro (2002, 2003 y 2018), el más importante de Argentina en lo musical. En 2020 ganó un Premio Mega a mejor trayectoria, en su primera edición, el día 12 de diciembre.
+        <br>Su álbum Clics modernos (1983) fue considerado por la revista Rolling Stone como el segundo mejor de la historia del rock argentino. Además, otros ocho de sus discos fueron incluidos también en dicha lista: Piano bar, La grasa de las capitales, Yendo de la cama al living, Pequeñas anécdotas sobre las instituciones, Vida, Bicicleta, Películas y PorSuiGieco.
+        </p>
+        <p>En 2010 fue declarado Ciudadano Ilustre de la Ciudad Autónoma de Buenos Aires por la Legislatura Porteña y en 2013 recibió el título de Doctor Honoris Causa de la Universidad Nacional de General San Martín.</p>
     </div>
     </article>
     </div>
@@ -142,18 +151,34 @@
                     <td>Celular: 11 3062-2408</td>
                 </tr>
                 <tr>
-                    <td>Email: <a href="">diazlucio1519@gmail.com</a></td>
+                    <td>Email: <a href="">estamosverdes.snm@gmail.com</a></td>
                 </tr>
             </table>
-        </div>
+        </div>  
+        <div>
+                <div>
+                  <img src="src/Say-No-More.png" alt="" class="sayNoMore" style="height: 104px; width: 104px; float: left; margin-left: 30px;">
+                </div>
+                <div >
+                  <p class="alignCenter" style="margin-right: 450px;">Copyright (c) 2021, Charly García, Estamos Verdes (r)<br>
+                    All Rights Reserved
+                    <br>
+                    This product is protected by copyright and distributed under <br>
+                    licenses restricting copying, distribution, and decompilation.</p>
+                </div>
+                <div style="margin-top: -98px; margin-right: 350px; text-align: right;">
+                  <img src="src/Say-No-More.png" alt="" class="sayNoMore" style="height: 104px; width: 104px; ">
+                </div>
                 <div class="alignRight" id="socialMedia">
                     <a href=""><img src="src/facebook-logo-button.png" alt=""></a>
                     <a href=""><img src="src/twitter-logo-button.png" alt=""></a>
                     <a href=""><img src="src/instagram-logo-1.png" alt=""></a>
                 </div>
+        </div>
     </footer>
 <!--FOOTER CIERRE-->
-  </div>
+  
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </body>
 </html>     

@@ -21,9 +21,26 @@
         font-style: italic;
         margin-right: 5px;
         float: right;
-        grid-area: header;
+    /*--grid-area: header;--*/
+        padding-top: 60px;
     }
     
+    .charlyTitPNG{
+        height: 87px;
+        width: 400px;
+        margin-top: -99px;
+        float: left;
+        text-align: left;
+    }
+
+    .garciaTitPNG{
+        height: 87px;
+        width: 400px;
+        text-align: right;
+        float: right;
+        margin-top: -99px;
+    }
+
     #backgroud-H{
         width: 100%;
         height: 100%;
@@ -64,8 +81,8 @@
         width: 100%;
         margin: 0;
         padding: 0;
-        grid-area: header;
-        grid-column: 1/7;
+    /*--grid-area: header;
+        grid-column: 1/7;--*/
     }
     
     .nav-Li{
@@ -84,9 +101,7 @@
     }
     
     .sayNoMore{
-        text-align: center;
-        grid-area: header;
-        grid-column: 3/5;
+        height: 135px
     }
     
     .noDecoHrf{
@@ -105,17 +120,33 @@
     
     #imgBody1{
         align-items: flex-start;
-        grid-area: body;
     }
     
     #parrafoInicio1{
         align-items: flex-end;
-        grid-column: 2/4;
-        grid-area: body2 !important; 
+    /*--grid-column: 2/4;
+        grid-area: body2 !important;--*/
     }
     
+    #carruIndPosit{
+        padding-right: 1330px;
+        margin-bottom: -30px;
+        margin-right: 250px;
+        margin-left: 157px;
+    }
+
+    #carruInn{
+        padding-left: 33px;
+        padding-top: 18px;
+    }
     
-    
+    .controlDer{
+        margin-right: 1292px;
+    }
+
+    .controlIzq{
+        padding-right: 250px;
+    }
     
     
     
@@ -141,18 +172,23 @@
     
     #tableSet{
         float: left;
-        grid-area: footer;
-        grid-column: 1/3;
+    /*--grid-area: footer;
+        grid-column: 1/3;--*/
     }
     
     #socialMedia{
-    align-items: flex-end;
-    justify-content: space-evenly;
+        align-items: flex-end;
+        justify-content: space-evenly;
+        text-align: right;
+        padding-top: 5px;
+        margin-top: -111px;
+        margin-right: 15px;
     }
+
     
     /********************************Grids********************************/
     
-    #fullSet{
+/*--#fullSet{
         display: grid;
         grid-template-columns: repeat(6, 1fr);
         grid-template-rows: 260px 100px 400px 200px;
@@ -162,17 +198,17 @@
                              "footer footer footer footer footer footer"   
         ;
         justify-content: flex-start;
-    }
+    }--*/
     
     .logoGr{
-        grid-area: header;
-        grid-column: 1/3;
-    
+        text-align: center;
+    /*--padding-top: 16px;
+        padding-left: 5px;--*/
     }
     
     #navBoot{
-        grid-area: header;
-        grid-column: 2/6;
+    /*--grid-area: header;
+        grid-column: 2/6;--*/
         height: 50%;
         width: 100%;
         float:none;
@@ -182,41 +218,45 @@
         background-color: #D27C5A  ;
         height: 100%;
         width: 100%;
-        grid-area: header;
-        grid-column: 1/7;
+    /*--grid-area: header;
+        grid-column: 1/7;--*/
     }
     
     #titlePosit{
-        grid-area: title;
-        grid-column: 5/7;
+    /*--grid-area: title;
+        grid-column: 5/7;--*/
         height: 100%;
         width: 100%;
         text-align: right;
+        padding-top: 80px;
+        padding-right: 10px;
     }
     
     
     #bodySet{
-        grid-area: body;
-        grid-column: 1/7;
         height: 100%;
         width: 100%;
+    /*--grid-area: body;
+        grid-column: 1/7;--*/
     }
     
     #textPosit{
         height: 100%;
         width: 100%;
-        grid-area: body;
-        grid-column: 1/7;
+    /*--grid-area: body;
+        grid-column: 1/7;--*/
     }
     
     #footerSet{
         background-color: #D27C5A;
-        grid-area: footer;    
-        grid-column: 1/7;
-        height: 181px;
+    /*--grid-area: footer;    
+        grid-column: 1/7;--*/
+        height: 142px;
         width: 100%;
+        margin-top: 284px;
     }
-    }
+    
+}
 @media only screen and (min-width:700px){
     *{
         margin: 0%;
@@ -240,9 +280,25 @@
         font-style: italic;
         margin-right: 5px;
         float: right;
-        grid-area: header;
+        padding-top: 60px;
     }
     
+    .charlyTitPNG{
+        height: 87px;
+        width: 400px;
+        text-align: left;
+        float: left;
+        margin-top: -99px;
+    }
+    
+    .garciaTitPNG{
+        height: 87px;
+        width: 400px;
+        text-align: right;
+        float: right;
+        margin-top: -99px;
+    }
+
     #backgroud-H{
         width: 100%;
         height: 100%;
@@ -283,8 +339,8 @@
         width: 100%;
         margin: 0;
         padding: 0;
-        grid-area: header;
-        grid-column: 1/7;
+    /*--grid-area: header;
+        grid-column: 1/7;--*/
     }
     
     .nav-Li{
@@ -303,9 +359,7 @@
     }
     
     .sayNoMore{
-        text-align: center;
-        grid-area: header;
-        grid-column: 3/5;
+        height: 135px
     }
     
     .noDecoHrf{
@@ -324,20 +378,33 @@
     
     #imgBody1{
         align-items: flex-start;
-        grid-area: body;
     }
     
     #parrafoInicio1{
         align-items: flex-end;
-        grid-column: 2/4;
-        grid-area: body2 !important; 
+    /*__grid-column: 2/4;
+        grid-area: body2 !important;--*/
     }
     
+    #carruIndPosit{
+        padding-right: 1330px;
+        margin-bottom: -30px;
+        margin-right: 250px;
+        margin-left: 157px;
+    }
     
+    #carruInn{
+        padding-left: 33px;
+        padding-top: 18px;
+    }
     
+    .controlDer{
+        margin-right: 1292px;
+    }
     
-    
-    
+    .controlIzq{
+        padding-right: 250px;
+    }
     
     /* ---------------------FOOTER--------------------*/
     
@@ -360,18 +427,22 @@
     
     #tableSet{
         float: left;
-        grid-area: footer;
-        grid-column: 1/3;
+    /*--grid-area: footer;
+        grid-column: 1/3;--*/
     }
     
     #socialMedia{
-    align-items: flex-end;
-    justify-content: space-evenly;
+        align-items: flex-end;
+        justify-content: space-evenly;
+        text-align: right;
+        margin-top: -111px;
+        margin-right: 15px;
     }
+
     
     /********************************Grids********************************/
     
-    #fullSet{
+/*--#fullSet{
         display: grid;
         grid-template-columns: repeat(6, 1fr);
         grid-template-rows: 260px 100px 400px 200px;
@@ -381,42 +452,44 @@
                              "footer footer footer footer footer footer"   
         ;
         justify-content: flex-start;
-    }
+    }--*/
     
     .logoGr{
-        grid-area: header;
-        grid-column: 1/3;
-    
+        text-align: center;
+    /*--padding-top: 16px;
+        padding-left: 5px;--*/
     }
     
     #navBoot{
-        grid-area: header;
-        grid-column: 2/6;
         height: 50%;
         width: 100%;
         float:none;
+    /*--grid-area: header;
+        grid-column: 2/6;--*/
     }
     */
     #nav-Background{
         background-color: #D27C5A  ;
         height: 100%;
         width: 100%;
-        grid-area: header;
-        grid-column: 1/7;
+    /*--grid-area: header;
+        grid-column: 1/7;--*/
     }
     
     #titlePosit{
-        grid-area: title;
-        grid-column: 5/7;
+    /*--grid-area: title;
+        grid-column: 5/7;--*/
         height: 100%;
         width: 100%;
         text-align: right;
+        padding-top: 80px;
+        padding-right: 10px;
     }
     
     
     #bodySet{
-        grid-area: body;
-        grid-column: 1/7;
+    /*--grid-area: body;
+        grid-column: 1/7;--*/
         height: 100%;
         width: 100%;
     }
@@ -424,18 +497,20 @@
     #textPosit{
         height: 100%;
         width: 100%;
-        grid-area: body;
-        grid-column: 1/7;
+    /*--grid-area: body;
+        grid-column: 1/7;--*/
     }
     
     #footerSet{
         background-color: #D27C5A;
-        grid-area: footer;    
-        grid-column: 1/7;
-        height: 181px;
+    /*--grid-area: footer;    
+        grid-column: 1/7;--*/
+        height: 142px;
         width: 100%;
+        margin-top: 284px;
     }
-    }
+}
+
 @media only screen and (min-width:900px){
 *{
     margin: 0%;
@@ -459,7 +534,25 @@ body{
     font-style: italic;
     margin-right: 5px;
     float: right;
-    grid-area: header;
+    padding-top: 60px;
+}
+
+.charlyTitPNG{
+    height: 87px;
+    width: 400px;
+    text-align: left;
+    float: left;
+    margin-top: -99px;
+    margin-left: 15px;
+}
+
+.garciaTitPNG{
+    height: 87px;
+    width: 400px;
+    text-align: right;
+    float: right;
+    margin-top: -99px;
+    margin-right: 15px;
 }
 
 #backgroud-H{
@@ -502,8 +595,8 @@ p{
     width: 100%;
     margin: 0;
     padding: 0;
-    grid-area: header;
-    grid-column: 1/7;
+/*--grid-area: header;
+    grid-column: 1/7;--*/
 }
 
 .nav-Li{
@@ -522,9 +615,7 @@ p{
 }
 
 .sayNoMore{
-    text-align: center;
-    grid-area: header;
-    grid-column: 3/5;
+    height: 135px
 }
 
 .noDecoHrf{
@@ -543,20 +634,34 @@ a{
 
 #imgBody1{
     align-items: flex-start;
-    grid-area: body;
+/*--grid-area: body;--*/
 }
 
 #parrafoInicio1{
     align-items: flex-end;
-    grid-column: 2/4;
-    grid-area: body2 !important; 
+/*--grid-column: 2/4;
+    grid-area: body2 !important;--*/
 }
 
+#carruIndPosit{
+    padding-right: 1330px;
+    margin-bottom: -30px;
+    margin-right: 250px;
+    margin-left: 157px;
+}
 
+#carruInn{
+    padding-left: 33px;
+    padding-top: 18px;
+}
 
+.controlDer{
+    margin-right: 1292px;
+}
 
-
-
+.controlIzq{
+    padding-right: 250px;
+}
 
 /* ---------------------FOOTER--------------------*/
 
@@ -579,18 +684,21 @@ a{
 
 #tableSet{
     float: left;
-    grid-area: footer;
-    grid-column: 1/3;
+/*--grid-area: footer;
+    grid-column: 1/3;--*/
 }
 
 #socialMedia{
-align-items: flex-end;
-justify-content: space-evenly;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    text-align: right;
+    margin-top: -111px;
+    margin-right: 15px;
 }
 
 /********************************Grids********************************/
 
-#fullSet{
+/*--#fullSet{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 260px 100px 400px 200px;
@@ -600,17 +708,17 @@ justify-content: space-evenly;
                          "footer footer footer footer footer footer"   
     ;
     justify-content: flex-start;
-}
+}--*/
 
 .logoGr{
-    grid-area: header;
-    grid-column: 1/3;
-
+    text-align: center;
+/*--padding-top: 16px;
+    padding-left: 5px;--*/
 }
 
 #navBoot{
-    grid-area: header;
-    grid-column: 2/6;
+/*--grid-area: header;
+    grid-column: 2/6;--*/
     height: 50%;
     width: 100%;
     float:none;
@@ -620,22 +728,24 @@ justify-content: space-evenly;
     background-color: #D27C5A  ;
     height: 100%;
     width: 100%;
-    grid-area: header;
-    grid-column: 1/7;
+/*--grid-area: header;
+    grid-column: 1/7;--*/
 }
 
 #titlePosit{
-    grid-area: title;
-    grid-column: 5/7;
+/*--grid-area: title;
+    grid-column: 5/7;--*/
     height: 100%;
     width: 100%;
     text-align: right;
+    padding-top: 80px;
+    padding-right: 10px;
 }
 
 
 #bodySet{
-    grid-area: body;
-    grid-column: 1/7;
+/*--grid-area: body;
+    grid-column: 1/7;--*/
     height: 100%;
     width: 100%;
 }
@@ -643,18 +753,30 @@ justify-content: space-evenly;
 #textPosit{
     height: 100%;
     width: 100%;
-    grid-area: body;
-    grid-column: 1/7;
+/*--grid-area: body;
+    grid-column: 1/7;--*/
 }
 
 #footerSet{
     background-color: #D27C5A;
-    grid-area: footer;    
-    grid-column: 1/7;
-    height: 181px;
+/*--grid-area: footer;    
+    grid-column: 1/7;--*/
+    height: 142px;
     width: 100%;
+    margin-top: 330px;
 }
 }
 
 
+
+
+.animaMio{
+  animation: color-change 1s infinite;
+}
+
+@keyframes color-change {
+  0% { color: red; }
+  50% { color: blue; }
+  100% { color: red; }
+}
 
