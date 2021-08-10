@@ -129,10 +129,10 @@
     }
     
     #carruIndPosit{
-        padding-right: 1330px;
+        /*padding-right: 1330px;*/
         margin-bottom: -30px;
-        margin-right: 250px;
-        margin-left: 157px;
+        /*margin-right: 250px;*/
+        /*margin-left: 157px;*/
     }
 
     #carruInn{
@@ -141,11 +141,11 @@
     }
     
     .controlDer{
-        margin-right: 1292px;
+        margin-right: -1px;
     }
 
     .controlIzq{
-        padding-right: 250px;
+        padding-right: 30px;
     }
     
     
@@ -387,10 +387,10 @@
     }
     
     #carruIndPosit{
-        padding-right: 1330px;
+        /*padding-right: 1330px;*/
         margin-bottom: -30px;
-        margin-right: 250px;
-        margin-left: 157px;
+        /*margin-right: 250px;
+        margin-left: 157px;*/
     }
     
     #carruInn{
@@ -399,11 +399,11 @@
     }
     
     .controlDer{
-        margin-right: 1292px;
+        margin-right: -1px;
     }
     
     .controlIzq{
-        padding-right: 250px;
+        padding-right: 30px;
     }
     
     /* ---------------------FOOTER--------------------*/
@@ -490,8 +490,9 @@
     #bodySet{
     /*--grid-area: body;
         grid-column: 1/7;--*/
-        height: 100%;
-        width: 100%;
+        /*height: 100%;
+        width: 100%;*/
+        width: 500px;
     }
     
     #textPosit{
@@ -644,10 +645,10 @@ a{
 }
 
 #carruIndPosit{
-    padding-right: 1330px;
+    /*padding-right: 1330px;*/
     margin-bottom: -30px;
-    margin-right: 250px;
-    margin-left: 157px;
+    /*margin-right: 250px;
+    margin-left: 157px;*/
 }
 
 #carruInn{
@@ -656,11 +657,11 @@ a{
 }
 
 .controlDer{
-    margin-right: 1292px;
+    margin-right: -1px;
 }
 
 .controlIzq{
-    padding-right: 250px;
+    padding-right: 30px;
 }
 
 /* ---------------------FOOTER--------------------*/
@@ -746,8 +747,9 @@ a{
 #bodySet{
 /*--grid-area: body;
     grid-column: 1/7;--*/
-    height: 100%;
-    width: 100%;
+    /*height: 100%;
+    width: 100%;*/
+    width: 500px;
 }
 
 #textPosit{
