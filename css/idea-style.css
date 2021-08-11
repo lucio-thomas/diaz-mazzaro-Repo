@@ -74,7 +74,7 @@ p{
     width: 100%;
     margin: 0;
     padding: 0;
-/*--grid-area: header;
+/*--grid-area: header;sh
     grid-column: 1/7;--*/
 
 }
@@ -489,7 +489,7 @@ a{
     .showTit{
         text-align: center;
         justify-content: center;
-        margin-top: 120px;
+        margin-top: 170px;
     }
 
     .quienPosit{
