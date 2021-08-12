@@ -1,5 +1,6 @@
+@import url("grids.css");
+@import url("vinyl.css");
 
-@media only screen and (min-width:900px){
 *{
     margin: 0%;
     font-family: 'Abril Fatface', cursive;
@@ -10,27 +11,35 @@ body{
 }
 
 
+#nav-Background{
+    background-color: #D27C5A  ;
+    height: 187px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 
-/* ---------------------HEADER--------------------*/
 
-.charlyTitPNG{
-    height: 87px;
-    width: 400px;
-    text-align: left;
-    float: left;
-    margin-top: -130px;
-    margin-left: 170px;
-    justify-content: left;
 }
 
-.garciaTitPNG{
-    height: 87px;
-    width: 400px;
-    text-align: right;
-    float: right;
-    margin-top: -130px;
-    margin-right: 170px;
-    justify-content: right;
+.nav-Li{
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.nav-UL{
+    
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-right: auto;
+    margin-left: auto;
+    width: auto;
+}
+
+.nav-UL .container-fluid {
+    width: auto;
 }
 
 #backgroud-H{
@@ -68,31 +77,38 @@ p{
     font-family: 'Abril Fatface', cursive;
 }
 
-#nav-Background{
-    background-color: #D27C5A  ;
-    height: 170px;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-/*--grid-area: header;sh
-    grid-column: 1/7;--*/
-
+a{
+    text-decoration: none;
+    color: black;
 }
 
-.nav-Li{
-    display: inline-block;
-    text-align: center;
-    font-weight: bold;
+@media only screen and (min-width:900px){
 
+
+
+.charlyTitPNG{
+    height: 87px;
+    width: 400px;
+    text-align: left;
+    float: left;
+    margin-top: -130px;
+    margin-left: 170px;
+    justify-content: left;
 }
 
-.nav-Ul{
-    /*float: right;*/
-    text-align: center;
-    color: white;
-    font-weight: bold;
-
+.garciaTitPNG{
+    height: 87px;
+    width: 400px;
+    text-align: right;
+    float: right;
+    margin-top: -130px;
+    margin-right: 170px;
+    justify-content: right;
 }
+
+
+
+
 
 .sayNoMore{
     height: 135px;
@@ -115,16 +131,11 @@ p{
     margin-top: -25px;
 }
 
-/* ---------------------BODY--------------------*/
 
-a{
-    text-decoration: none;
-    color: black;
-}
 
 #imgBody1{
     align-items: flex-start;
-/*--grid-area: body;--*/
+
 }
 
 .homePcl{
@@ -142,15 +153,13 @@ a{
 
 #parrafoInicio1{
     align-items: flex-end;
-/*--grid-column: 2/4;
-    grid-area: body2 !important;--*/
+
 }
 
 #carruIndPosit{
-    /*padding-right: 1330px;*/
+    
     margin-bottom: -30px;
-    /*margin-right: 250px;
-    margin-left: 157px;*/
+    
 }
 
 #carruInn{
@@ -169,9 +178,9 @@ a{
 .showTit{
     text-align: center;
     justify-content: center;
-    margin-top: 120px;
+    margin-top: 20px;
 }
-/* ---------------------FOOTER--------------------*/
+
 
 .alignCenter{
     text-align: center;
@@ -193,8 +202,7 @@ a{
 
 #tableSet{
     float: left;
-/*--grid-area: footer;
-    grid-column: 1/3;--*/
+
 }
 
 #socialMedia{
@@ -208,23 +216,14 @@ a{
 
 .logoGr{
     text-align: center;
-/*--padding-top: 16px;
-    padding-left: 5px;--*/
+
     justify-content: center;
 }
 
-#navBoot{
-    /*--grid-area: header;
-        grid-column: 2/6;--*/
-        height: 50%;
-        width: 100%;
-        float:none;
-}
 
 
 #titlePosit{
-/*--grid-area: title;
-    grid-column: 5/7;--*/
+
     height: 100%;
     width: 100%;
     text-align: right;
@@ -234,27 +233,24 @@ a{
 
 
 #bodySet{
-/*--grid-area: body;
-    grid-column: 1/7;--*/
-    /*height: 100%;
-    width: 100%;*/
+
+    
     width: 500px;
 }
 
 #textPosit{
     height: 100%;
     width: 100%;
-/*--grid-area: body;
-    grid-column: 1/7;--*/
+
 }
 
 #footerSet{
     background-color: #D27C5A;
-/*--grid-area: footer;    
-    grid-column: 1/7;--*/
+
     height: 142px;
     width: 100%;
-    margin-top: 330px;
+    position: fixed;
+    bottom: 0px;
 }
 
 .copyP{
@@ -268,68 +264,10 @@ a{
     display: none;
 }
 
-
-/*-------------------Hover----------------------*/
-
-.trigger {
-    cursor: pointer;
-    width: fit-content;
-  }
-
-  .vyAni{
-    display: none;
-  }
-
-  .trigger:hover .static {
-    display: inline-block;
-  }
-  .trigger:hover .vyAni {
-    display: inline-block;
-  }
-
-/*-------------------Grid----------------------*/
-/*
-#gridDisc10{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 500px 500px 500px;
-    grid-template-areas: "disc1a disc1b" 
-                         "disc2a disc2b"
-                         "disc3a disc3b"
-}
-
-#ch10Vy{
-    grid-area: disc1a; 
-    display: grid;
-}
-#ch10P{
-    grid-area: disc1b;
-    display: grid;
-
-}
-*/
-
-
-
-
-
-
 }
 
 
 @media only screen and (max-width:600px){
-    *{
-        margin: 0%;
-        font-family: 'Abril Fatface', cursive;
-    }
-    body{
-        background-color: #0C0E13;
-    
-    }
-    
-    
-    
-    /* ---------------------HEADER--------------------*/
     
     .charlyTitPNG{
         display: none;
@@ -339,67 +277,7 @@ a{
         display: none;
     }
     
-    #backgroud-H{
-        width: 100%;
-        height: 100%;
-    
-    }
-    h1{
-        font-size: xx-large;
-        font-weight: 400;
-        color: rgb(192, 1, 1) ;
-        font-style: italic;
-        text-decoration: underline double; 
-        margin-right: 5px;
-    }
-    
-    h2{
-        font-size: larger;
-        font-weight: 500;
-        color: #3762AB;
-        font-style: italic;
-        text-decoration: underline;
-    }
-    
-    h3{
-        font-size: large;
-        font-weight: 600;
-        color: #758F82 ;
-    }
-    
-    p{
-        font-size: medium;
-        color: rgb(238, 238, 238);
-        font-size: 14px;
-        font-family: 'Abril Fatface', cursive;
-    }
-    
-    #nav-Background{
-        background-color: #D27C5A  ;
-        height: 170px;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    /*--grid-area: header;
-        grid-column: 1/7;--*/
-    
-    }
-    
-    .nav-Li{
-        display: inline-block;
-        text-align: center;
-        font-weight: bold;
-    
-    }
-    
-    .nav-Ul{
-        /*float: right;*/
-        text-align: center;
-        color: white;
-        font-weight: bold;
-    
-    }
-    
+   
     .sayNoMore{
         height: 104px;
         width: 104px;
@@ -427,7 +305,6 @@ a{
     }
     
     .navTogCust{
-        margin-left: -735px;
         margin-bottom: 115px;
     }
 
@@ -436,16 +313,14 @@ a{
         margin-top: -30px;
     }
 
-    /* ---------------------BODY--------------------*/
-    
-    a{
-        text-decoration: none;
-        color: black;
+    .nav-UL .navbar-nav{
+        margin-top: -84px;
     }
+
     
     #imgBody1{
         align-items: flex-start;
-    /*--grid-area: body;--*/
+    
     }
     
     #homeP{
@@ -462,15 +337,13 @@ a{
     
     #parrafoInicio1{
         align-items: flex-end;
-    /*--grid-column: 2/4;
-        grid-area: body2 !important;--*/
+    
     }
     
     #carruIndPosit{
-        /*padding-right: 1330px;*/
+        
         margin-bottom: -30px;
-        /*margin-right: 250px;
-        margin-left: 157px;*/
+        
     }
     
     #carruInn{
@@ -489,7 +362,7 @@ a{
     .showTit{
         text-align: center;
         justify-content: center;
-        margin-top: 170px;
+        margin-top: 250px;
     }
 
     .quienPosit{
@@ -505,7 +378,7 @@ a{
         align-self: center;
         align-content: center;
     }
-    /* ---------------------FOOTER--------------------*/
+    
     
     .alignCenter{
         text-align: center;
@@ -541,14 +414,12 @@ a{
     
     .logoGr{
         text-align: center;
-    /*--padding-top: 16px;
-        padding-left: 5px;--*/
+    
         justify-content: center;
     }
     
     #navBoot{
-        /*--grid-area: header;
-            grid-column: 2/6;--*/
+        
             height: 50%;
             width: 100%;
             float:none;
@@ -556,8 +427,7 @@ a{
     
     
     #titlePosit{
-    /*--grid-area: title;
-        grid-column: 5/7;--*/
+    
         height: 100%;
         width: 100%;
         text-align: right;
@@ -567,24 +437,20 @@ a{
     
     
     #bodySet{
-    /*--grid-area: body;
-        grid-column: 1/7;--*/
-        /*height: 100%;
-        width: 100%;*/
+    
+        
         width: 500px;
     }
     
     #textPosit{
         height: 100%;
         width: 100%;
-    /*--grid-area: body;
-        grid-column: 1/7;--*/
+    
     }
     
     #footerSet{
         background-color: #D27C5A;
-    /*--grid-area: footer;    
-        grid-column: 1/7;--*/
+    
         height: 142px;
         width: 100%;
         margin-top: 330px;
@@ -608,51 +474,4 @@ a{
         text-align: right;
         justify-content: right;
     }
-    
-    /*-------------------Hover----------------------*/
-    
-    .trigger {
-        cursor: pointer;
-        width: fit-content;
-      }
-    
-      .vyAni{
-        display: none;
-      }
-    
-      .trigger:hover .static {
-        display: inline-block;
-      }
-      .trigger:hover .vyAni {
-        display: inline-block;
-      }
-    
-    /*-------------------Grid----------------------*/
-    /*
-    #gridDisc10{
-        display: grid;
-        grid-template-columns: 50% 50%;
-        grid-template-rows: 500px 500px 500px;
-        grid-template-areas: "disc1a disc1b" 
-                             "disc2a disc2b"
-                             "disc3a disc3b"
-    }
-    
-    #ch10Vy{
-        grid-area: disc1a; 
-        display: grid;
-    }
-    #ch10P{
-        grid-area: disc1b;
-        display: grid;
-    
-    }
-    */
-    
-    
-    
-    
-    
-    
-    }
-    
+}

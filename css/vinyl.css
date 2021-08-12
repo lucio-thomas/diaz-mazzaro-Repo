@@ -1,0 +1,47 @@
+
+/*-------------------Hover----------------------*/
+
+.trigger {
+  cursor: pointer;
+  width: fit-content;
+  min-height: 160px;
+  min-width: 160px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.vyAni{
+  display: none;
+  /*position: absolute;*/
+  height: 150px; 
+  width: 150px;
+  margin: 5px;
+}
+
+.vy-left{
+  margin-left: 20px;
+}
+
+.vy-right{
+  width: 160px;
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.record-text p{
+  font-size: 1.2em;
+  padding: 5px 15px;
+}
+
+.static{
+  /*position: fixed;*/
+  height: 160px; 
+  width: 160px;
+}
+
+.trigger:hover .static {
+  display: none;
+}
+.trigger:hover .vyAni {
+  display: inline-block;
+}
